@@ -1,8 +1,9 @@
 {
-  "name": "vexchords",
-  "version": "1.2.0",
+  "name": "@pencilcool/vexchords",
+  "version": "1.2.1",
   "description": "Javascript Chord Charts",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "webpack-dev-server --port 8203 --disable-host-check --env.NODE_ENV=development --env.TAG_NAME=dev --mode development --config webpack.config.js",
     "build": "npx webpack --env.NODE_ENV=production --progress --mode production",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xfe/vexchords.git"
+    "url": "git+https://github.com/pencilCool/vexchords.git"
   },
   "keywords": [
     "guitar",
@@ -20,9 +21,9 @@
   "author": "Mohit Cheppudira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0xfe/vexchords/issues"
+    "url": "https://github.com/pencilCool/vexchords/issues"
   },
-  "homepage": "https://github.com/0xfe/vexchords#readme",
+  "homepage": "https://github.com/pencilCool/vexchords#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
